@@ -14,7 +14,7 @@ WORKDIR /portfolio
 RUN npm install -g npm && npm install
 
 # docker runコマンドを実行した後、ビルドしてサーバをスタートする
-ENTRYPOINT ["./docker/start.sh"]
+ENTRYPOINT ["/portfolio/docker/start.sh"]
 
 ENV HOST 0.0.0.0
 EXPOSE 3000
