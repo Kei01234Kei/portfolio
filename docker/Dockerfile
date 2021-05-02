@@ -1,9 +1,6 @@
 # イメージの指定
 FROM node:alpine
 
-# コンテナ内で cd /app しているようなもの
-WORKDIR /app
-
 # コマンド実行
 # linux 最新化,gitのインストール
 RUN apk update && apk add git
