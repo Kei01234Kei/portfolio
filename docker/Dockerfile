@@ -1,14 +1,18 @@
-# イメージの指定
-FROM node:alpine
+# どのイメージを基にするか
+FROM ubuntu:latest
 
-# コマンド実行
-# linux 最新化,gitのインストール
-RUN apk update && apk add git
+# RUN: docker buildするときに実行される
+RUN apt update -y && apt upgrade -y
+RUN apt install curl git vim -y
+RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh && bash nodesource_setup.sh
+RUN apt install nodejs
 RUN git clone https://github.com/Kei01234/portfolio.git
+
 # ワーキングディレクトリの変更
 WORKDIR /portfolio
-# npm最新化、依存関係のインストール
-RUN npm install -g npm && npm install
+
+# 依存関係のインストール
+RUN npm install
 
 # docker runコマンドを実行した後、ビルドしてサーバをスタートする
 ENTRYPOINT ["/portfolio/docker/start.sh"]
