@@ -1,0 +1,4 @@
+<template><h1>works</h1></template>
+
+<script>
+</script>
