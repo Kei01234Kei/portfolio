@@ -13,8 +13,8 @@
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
-      absolute
       temporary
+      fixed
     >
       <v-list
         nav
