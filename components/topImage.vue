@@ -8,10 +8,10 @@
           class="text-center"
           cols="12"
         >
-          <h1 class="display-1 font-weight-light mb-4">
+          <h1 class="display-2 font-weight-light mb-4">
             Keisuke's Portfolio
           </h1>
-          <h4 class="subheading">
+          <h4>
             IT技術で社会に貢献する
           </h4>
         </v-col>

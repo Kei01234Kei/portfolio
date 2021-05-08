@@ -1,9 +1,14 @@
-.v-toolbar__title a {
+.v-toolbar__title a, a {
     text-decoration: none;
     color: black;
 }
 
 footer > .v-card__text a {
+    text-decoration: none;
+    color: black;
+}
+
+div:nth-child(1) > h1 > a {
     text-decoration: none;
     color: black;
 }

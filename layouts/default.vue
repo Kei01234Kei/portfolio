@@ -56,7 +56,7 @@
       class="text-center"
     >
       <v-card-text>
-        &copy; {{ new Date().getFullYear() }} — <strong>Keisuke Ishigami / 石上敬祐</strong>
+        &copy; {{ new Date().getFullYear() }} — <strong>Keisuke Ishigami / 石上 敬祐</strong>
       </v-card-text>
     </v-footer>
   </v-app>
