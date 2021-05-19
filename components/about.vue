@@ -11,7 +11,7 @@
                 </p>
             </v-col>
             <v-avatar size="150">
-                <v-img :src="require('@/assets/img/avatar.jpg')"></v-img>
+                <v-img :src="require('@/assets/img/avatar.JPG')"></v-img>
             </v-avatar>
         </v-container>
     </v-row>
