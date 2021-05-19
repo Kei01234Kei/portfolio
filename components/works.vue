@@ -10,9 +10,6 @@
     </v-container>
     <v-col cols="12" sm="12" md="4" lg="4" xl="4">
       <a href="https://fulltan-navi.com/">
-      <v-hover>
-          
-      </v-hover>
         <v-card
           class="mx-auto"
 
