@@ -13,11 +13,11 @@ WORKDIR /portfolio
 
 # 依存関係のインストール
 RUN npm install
-# start.shに実行権限を付与する
-RUN chmod 744 /portfolio/docker/start.sh
+# nuxtアプリケーションのビルド
+RUN npm run build
 
 # docker runコマンドを実行した後、ビルドしてサーバをスタートする
-ENTRYPOINT ["/portfolio/docker/start.sh"]
+ENTRYPOINT ["npm", "run", "start"]
 
 ENV HOST 0.0.0.0
 EXPOSE 3000
