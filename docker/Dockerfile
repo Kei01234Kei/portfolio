@@ -3,7 +3,7 @@ FROM ubuntu:latest
 
 # RUN: docker buildするときに実行される
 RUN apt update -y && apt upgrade -y
-RUN apt install curl git vim -y
+RUN apt install git -y
 RUN curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh && bash nodesource_setup.sh
 RUN apt install nodejs -y
 RUN git clone https://github.com/Kei01234/portfolio.git
