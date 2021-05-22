@@ -117,7 +117,7 @@
 
         <v-card-title class="my-２">クラウドサービス</v-card-title>
         <v-card-text>
-          <p>AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。また、このポートフォリオサイトはAWS ECSを使用して運営されています。</p>
+          <p>AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。また、このポートフォリオサイトはAWS Fargateを使用して運営されています。</p>
         </v-card-text>
       </v-card>
     </v-col>
