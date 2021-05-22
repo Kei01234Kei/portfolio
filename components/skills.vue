@@ -44,7 +44,7 @@
       </v-card>
     </v-col>
 
-    <v-col v-col cols="12" sm="12" md="4" lg="4" xl="4">
+    <v-col cols="12" sm="12" md="4" lg="4" xl="4">
       <v-card
         class="mx-auto"
         height="425"
@@ -83,7 +83,7 @@
       </v-card>
     </v-col>
 
-    <v-col v-col cols="12" sm="12" md="4" lg="4" xl="4">
+    <v-col cols="12" sm="12" md="4" lg="4" xl="4">
       <v-card
         class="mx-auto"
         height="425"
@@ -117,7 +117,7 @@
 
         <v-card-title class="my-２">クラウドサービス</v-card-title>
         <v-card-text>
-          <p>AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。また、このポートフォリオサイトはAWS Fargateを使用して運営されています。</p>
+          <p>AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。また、このポートフォリオサイトはAWS Fargateを使用してホストされています。</p>
         </v-card-text>
       </v-card>
     </v-col>
