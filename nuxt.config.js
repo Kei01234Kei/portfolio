@@ -18,7 +18,7 @@ export default {
       { hid: 'og:url', property: 'og:url', content: 'https://portfolio.keisuke.app' },
       { hid: 'og:title', property: 'og:title', content: "Keisuke's Portfolio" },
       { hid: 'og:description', property: 'og:description', content: 'Keisuke Ishigamiのポートフォリオサイトです。' },
-      { hid: 'og:image', property: 'og:image', content: '' },
+      { hid: 'og:image', property: 'og:image', content: 'https://raw.githubusercontent.com/Kei01234/portfolio/main/static/ogpImage.png' },
       { name: 'twitter:card', content: 'summary_large_image' },
     ],
     link: [
