@@ -69,7 +69,7 @@ export default {
         {
           image: require("@/assets/img/cloud.jpg"),
           title: "クラウドサービス",
-          text: "AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。また、このポートフォリオサイトはAWS Fargateを使用してホストされています。",
+          text: "AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。このポートフォリオサイトはAWS Fargateを使用してホストされています。",
         },
       ]
     }
