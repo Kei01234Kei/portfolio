@@ -8,11 +8,15 @@
         <p>私が開発に携わった主要なサービス一覧です。詳細な開発経験については<a href="https://github.com/Kei01234">私のGitHub</a>をご覧ください。</p>
       </v-col>
     </v-container>
-    <v-col cols="12" sm="12" md="4" lg="4" xl="4">
-      <a href="https://fulltan-navi.com/">
+
+    <v-col
+      v-for="(item, i) in items"
+      :key="i"
+      cols="12" sm="12" md="4" lg="4" xl="4"
+    >
+      <a v-bind:href="item.url">
         <v-card
           class="mx-auto"
-
         >
           <template slot="progress">
             <v-progress-linear
@@ -25,7 +29,7 @@
             class="blue-grey--text text--darken-3 align-end"
             :aspect-ratio="361/267"
             height="300"
-            :src="require('@/assets/img/fulltan-navi.png')"
+            :src="item.image"
           >
             <template v-slot:placeholder>
               <v-row
@@ -39,10 +43,26 @@
                 ></v-progress-circular>
               </v-row>
             </template>
-            <v-card-title class="font-weight-bold">フル単ナビ</v-card-title>
+            <v-card-title class="font-weight-bold">{{item.title}}</v-card-title>
           </v-img>
         </v-card>
       </a>
     </v-col>
   </v-row>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      items: [
+        {
+          url: "https://fulltan-navi.com/",
+          image: require("@/assets/img/fulltan-navi.png"),
+          title: "フル単ナビ",
+        },
+      ]
+    }
+  }
+}
+</script>
