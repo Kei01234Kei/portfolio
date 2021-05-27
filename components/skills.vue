@@ -59,17 +59,17 @@ export default {
         {
           image: require("@/assets/img/front-end.jpg"),
           title: "フロントエンド",
-          text: "HTML、CSSをはじめ、VueやReactなどのフロントエンドフレームワークを扱うこともできます。"
+          text: "HTML、CSSをはじめ、VueやReactなどのフロントエンドフレームワークを扱うことができます。",
         },
         {
           image: require("@/assets/img/back-end.jpg"),
           title: "バックエンド",
-          text: "主にNode.jsを使用して開発しています。最近はGo言語の勉強もしており、Go言語を使ったプロジェクトに携わることが直近の目標です。",
+          text: "主にNode.jsを使用して開発しています。最近はGo言語の勉強もしており、個人開発ではGo言語を意識的に使うようにしています。",
         },
         {
           image: require("@/assets/img/cloud.jpg"),
           title: "クラウドサービス",
-          text: "AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。このポートフォリオサイトはAWS Fargateを使用してホストされています。",
+          text: "AWSの基本サービス（EC2やVPC、ECR、ECS等）の基礎知識を有しています。このポートフォリオサイトはAWS Fargateを使用してホストしています。",
         },
       ]
     }
