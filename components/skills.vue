@@ -2,7 +2,7 @@
   <v-row justify="center" align="center" class="my-5 px-10">
     <v-container class="text-center">
       <v-col cols="12">
-        <h1 class="display-1 font-weight"><router-link to="/skills">Skills</router-link></h1>
+        <h1 class="display-1 font-weight"><router-link to="/about#skills">Skills</router-link></h1>
       </v-col>
     </v-container>
 

@@ -29,7 +29,7 @@
     
     <v-row justify="center" align="center" class="my-5 mx-3">
       <v-col cols="12" sm="12" md="10" lg="10" xl="8">
-        <h1 class="display-1 font-weight">Skills</h1>
+        <h1 class="display-1 font-weight" id="skills">Skills</h1>
         <v-row justify="center" class="my-2">
           <v-col
             v-for="(item, i) in items"
