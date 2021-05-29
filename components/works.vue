@@ -26,7 +26,7 @@
             ></v-progress-linear>
           </template>
           <v-img
-            class="blue-grey--text text--darken-3 align-end"
+            class="blue-grey--text text--lighten-5 align-end"
             :aspect-ratio="361/267"
             height="300"
             :src="item.image"
@@ -60,6 +60,12 @@ export default {
           url: "https://fulltan-navi.com/",
           image: require("@/assets/img/fulltan-navi.png"),
           title: "フル単ナビ",
+        },
+        {
+            url: "https://portfolio.keisuke.app",
+            image: require("@/static/ogpImage.png"),
+            title: "Keisuke's Portfolio",
+
         },
       ]
     }
