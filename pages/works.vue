@@ -67,10 +67,9 @@ export default {
           title: "フル単ナビ",
         },
         {
-            url: "https://portfolio.keisuke.app",
-            image: require("@/static/ogpImage.png"),
-            title: "Keisuke's Portfolio",
-
+          url: "https://portfolio.keisuke.app",
+          image: require("@/static/ogpImage.png"),
+          title: "Keisuke's Portfolio",
         },
       ]
     }
