@@ -65,7 +65,6 @@ export default {
             url: "https://portfolio.keisuke.app",
             image: require("@/static/ogpImage.png"),
             title: "Keisuke's Portfolio",
-
         },
       ]
     }
